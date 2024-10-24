@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coming Soon - Elangakurichi</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-color: #f0f0f0; /* Light background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Helvetica Neue', sans-serif;
+            color: #333; /* Dark text for elite feel */
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .image {
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Light, elegant shadow */
+        }
+
+        .coming-soon-text {
+            font-size: 2.5rem;
+            margin-top: 20px;
+            color: #333;
+            font-weight: 300; /* Light, sleek font */
+            animation: slideIn 2s ease-out forwards;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .glow {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            color: #777;
+            animation: fadeIn 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0.6; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="elg.png" alt="Elangakurichi Sign" class="image">
+        <div class="coming-soon-text">Coming Soon</div>
+        <div class="glow">Stay Tuned for Updates</div>
+    </div>
+</body>
+</html>
